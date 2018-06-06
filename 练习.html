@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="css/font-awesome.min.css"/>
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+   <link type="text/css" rel="stylesheet" href="style.css"/>
+    <style>
+        .info {overflow: hidden;}
+    </style>
+<script>
+     window.onload=function () {
+             var oUl = document.getElementById('ul1');
+             var aA = oUl.getElementsByTagName('a');
+             for (i = 0; i < aA.length; i++)
+                 aA[i].onmouseover = function () {
+                     this.style.color = 'white';
+                 }
+             for (i = 0; i < aA.length; i++)
+                 aA[i].onmouseout = function () {
+                     this.style.color = 'black';
+                 }
+             for (j = 0;j < aA.length;j++)
+                 aA[j].onclick=function () {
+                   this.style.color='white';
+                 }
+                                }
+ </script>
+</head>
+<body>
+  <header  style="background-position: 50% 36px; ">
+        <div class="bg-color">
+            <div class="top section-padding">
+
+            <div class="container">
+                      <div class="row">
+                           <div class="col-sm-7 col-md-7">
+                                <div class="content">
+                                    <h1><strong>Mobile App</strong> Template</h1>
+                                    <h2>The best one page responsive bootstrap landing page.</h2>
+
+                                <div class="button" id="download-app1">
+                                    <a href="#download" class="btn btn-default btn-lg custom-btn">Download App</a>
+                                </div>
+                                </div>
+                           </div>
+                           <div class="col-sm-5 col-md-5">
+                               <div class="photo-slide">
+                                   <div id="carousel" class="carousel slide" data-ride="carousel">
+                                       <ol class="carousel-indicators">
+                                           <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                                           <li data-target="#carousel" data-slide-to="1" class=""></li>
+                                           <li data-target="#carousel" data-slide-to="2" class=""></li>
+                                       </ol>
+                                       <div class="carousel-inner">
+                                           <div class="item next left">
+                                               <img src="images/phone.png" alt="">
+                                           </div>
+                                           <div class="item">
+                                               <img src="images/phone.png" alt="">
+                                           </div>
+                                           <div class="item active left">
+                                               <img src="images/phone.png" alt="">
+                                           </div>
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+                      </div>
+               </div>
+        </div>
+            <div>
+  </header>
+  <div class="dao">
+       <div id="dao" class="navbar navbar-default navbar-fixed-top">
+              <div class="container">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="">Mobile</a>
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                   <div class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav navbar-right" id="ul1">
+                            <li class=""><a href="#top">Home</a></li>
+                            <li class=""><a href="#aboutApp">About App</a></li>
+                            <li class=""><a href="#features">Features</a></li>
+                            <li class=""><a href="#screenshots">Screenshots</a></li>
+                            <li class=""><a href="#testimonial">Reviews</a></li>
+                            <li class=""><a href="#team">Team</a></li>
+                            <li class=""><a href="#price">Pricing</a></li>
+                            <li class=""><a href="#download">Download</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                   </div>
+              </div>
+       </div>
+  </div>
+  <div class="aboutApp">
+       <div class="aboutAPP-one section-padding">
+         <div class="container">
+               <div class="row">
+                    <div class="col-sm-5 col-md-6">
+                         <div class="app-img">
+                             <img src="images/duel-phone-big1.png"/>
+                         </div>
+                    </div>
+                   <div class="col-sm-7 col-md-6">
+                       <div class="content">
+                           <h1>Our Mobile App</h1>
+                           <h4>Lorem ipsum dolor sit amet</h4>
+                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi aspernatur sit, officiis sunt voluptate dolorum odit quam. Recusandae tempore excepturi pariatur provident corrupti est quisquam ratione, consectetur nam omnis eius.
+                               <br>
+                               <br>
+                               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus aut non tempore, explicabo aliquam harum odio et libero.
+                               <br>
+                               <br>
+                               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi aspernatur sit, officiis sunt voluptate dolorum odit quam. Recusandae tempore excepturi pariatur provident corrupti est quisquam ratione, consectetur nam omnis eius.
+                               <br>
+                           </p>
+                       </div>
+                   </div>
+               </div>
+         </div>
+       </div>
+  </div>
+  <div class="bg-color bg-testimonial" style="background-position: 50% -123px;">
+        <div class="testimonial section-padding">
+            <div class="container">
+                <div class="testimonial-slide">
+                    <div id="carousel-testimonial" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-testimonial" data-slide-to="0" class=""></li>
+                            <li data-target="#carousel-testimonial" data-slide-to="1" class="active"></li>
+                            <li data-target="#carousel-testimonial" data-slide-to="2" class=""></li>
+                        </ol>
+                        <div class="carousel-inner">
+
+                            <div class="item">
+                                <div class="image">
+                                    <img src="images/01.jpg" alt="">
+                                </div>
+                                <div class="content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut dignissimos ipsam obcaecati corrupti modi, deserunt facere asperiores. Voluptatum laudantium ut, minus nam. Libero facilis aspernatur cumque, quisquam quod sint odit.</p>
+                                    <h4>Jon Doe</h4>
+                                    <h5>Web developer</h5>
+                                </div>
+                            </div>
+
+                            <div class="item active">
+                                <div class="image">
+                                    <img src="images/02.jpg" alt="">
+                                </div>
+                                <div class="content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut dignissimos ipsam obcaecati corrupti modi, deserunt facere asperiores. Voluptatum laudantium ut, minus nam. Libero facilis aspernatur cumque, quisquam quod sint odit.</p>
+                                    <h4>Jon Doe</h4>
+                                    <h5>Web developer</h5>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="image">
+                                    <img src="images/03.jpg" alt="">
+                                </div>
+                                <div class="content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut dignissimos ipsam obcaecati corrupti modi, deserunt facere asperiores. Voluptatum laudantium ut, minus nam. Libero facilis aspernatur cumque, quisquam quod sint odit.</p>
+                                    <h4>Jon Doe</h4>
+                                    <h5>Web developer</h5>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+  </div>
+  <div class="team section-padding">
+      <div class="container">
+
+          <div class="header">
+              <h1>Who develop the App</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui hic laboriosam odio doloribus suscipit error nostrum totam dignissimos esse numquam voluptatum, aspernatur est.</p>
+              <div class="underline"></div>
+          </div> <!-- end .container> .header -->
+
+          <div class="row">
+              <div class="app-dev">
+
+                  <div class="col-sm-6 col-md-6 col-lg-3 info">
+                      <div class="member">
+                          <img src="images/01.jpg" alt="">
+                          <div class="details">
+                              <div class="social icon">
+                                  <ul>
+                                      <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                                      <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                                      <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+                                      <li><a href=""><i class="fa fa-google-plus"></i></a></li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="title">
+                          <h4>Kristin Doe</h4>
+                          <h5>General Manager</h5>
+                      </div>
+                  </div>
+
+                  <div class="col-sm-6 col-md-6 col-lg-3 info">
+                      <div class="member">
+                          <img src="images/02.jpg" alt="">
+                          <div class="details">
+                              <div class="social icon">
+                                  <ul>
+                                      <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                                      <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                                      <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+                                      <li><a href=""><i class="fa fa-google-plus"></i></a></li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="title">
+                          <h4>Michelline</h4>
+                          <h5>Developer</h5>
+                      </div>
+                  </div>
+                  <div class="col-sm-6 col-md-6 col-lg-3 info">
+                      <div class="member">
+                          <img src="images/03.jpg" alt="">
+                          <div class="details">
+                              <div class="social icon">
+                                  <ul>
+                                      <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                                      <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                                      <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+                                      <li><a href=""><i class="fa fa-google-plus"></i></a></li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="title">
+                          <h4>John Doe</h4>
+                          <h5>Front End Developer</h5>
+                      </div>
+                  </div>
+
+                  <div class="col-sm-6 col-md-6 col-lg-3 info">
+                      <div class="member">
+                          <img src="images/04.jpg" alt="">
+                          <div class="details">
+                              <div class="social icon">
+                                  <ul>
+                                      <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                                      <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                                      <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+                                      <li><a href=""><i class="fa fa-google-plus"></i></a></li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="title">
+                          <h4>Harry Potter</h4>
+                          <h5>Manager</h5>
+                      </div>
+                  </div>
+
+              </div>
+          </div>
+
+      </div>
+  </div>
+  <div class="footer section-padding">
+      <div class="container">
+          <h1>Contact Us</h1>
+          <form action="" class="form contact">
+
+              <div class="row">
+                  <div class="col-xs-12 col-md-6">
+                      <div class="form-group">
+                          <label for="name" class="sr-only">Name</label>
+                          <input type="text" class="form-control" id="name" placeholder="Name">
+                      </div>
+
+                      <div class="form-group">
+                          <label for="email" class="sr-only">Email</label>
+                          <input type="email" class="form-control" id="email" placeholder="Email">
+                      </div>
+
+                      <div class="form-group">
+                          <label for="subject" class="sr-only">Subject</label>
+                          <input type="text" class="form-control" id="subject" placeholder="Subject">
+                      </div>
+                  </div>
+
+                  <div class="col-xs-12 col-md-6">
+                      <div class="form-group">
+                          <label for="message" class="sr-only">Message</label>
+                          <textarea name="message" id="message" placeholder="Message"></textarea>
+                      </div>
+                  </div>
+              </div>
+
+              <button class="btn btn-default contact-submit custom-btn" type="submit">SUBMIT</button>
+          </form>
+      </div>
+  </div>
+
+
+
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
