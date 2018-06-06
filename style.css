@@ -1,0 +1,338 @@
+body {
+	background-color: #fff;
+	color: #333;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 28px;
+	margin: 0;
+	padding: 0;
+}
+header{
+	background: url(images/bg.jpg) 50% 0 no-repeat fixed;
+	background-size: cover;
+
+}
+.bg-color {
+	background: rgba(0, 0, 0,0.5);
+	color: #D4D4D4;
+	margin-top: 85px;
+}
+.top .content {
+	color: #fff;
+}
+.top .content h1 {
+	font-size: 46px;
+	margin-top: 22%;
+}
+.top .content h2 {
+	font-size: 27px;
+	font-weight: 300;
+	margin-bottom: 29px;
+	line-height: 36px;
+	color: #CACACA;
+}
+.top .content .button a:hover {
+	background-color: #fff;
+	color: #222;}
+.top .content .button a {
+	font-size: 18px;
+	font-weight: 400;
+	margin-bottom: 50px;
+	padding: 12px 20px;
+	-webkit-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+}
+.top .content h1 strong {
+	color: #09F !important;
+}
+strong {
+	font-weight: 400;
+}
+.custom-btn {
+	background-color: transparent;
+	color: #E9E9E9;
+	border-radius: 0;
+	border: 2px solid #FFFFFF;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.top .photo-slide {
+	max-width: 252px;
+	margin: auto;
+	padding-bottom: 50px;
+}
+.carousel-indicators {
+	bottom: -50px;
+}
+.carousel-indicators li {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	margin: 1px;
+	text-indent: -999px;
+	cursor: pointer;
+	background-color: #000 \9;
+	background-color: rgba(0,0,0,0);
+	border: 1px solid #fff;
+	border-radius: 0;
+	width: 18px;
+	height: 9px;
+}
+.carousel-indicators .active {
+	width: 18px;
+	height: 9px;
+	margin: 0;
+	background-color: #fff;
+}
+.top .photo-slide img {
+	width: 252px;
+	height: auto;
+}
+img {
+	display: block;
+	width: 100% \9;
+	max-width: 100%;
+	height: auto;
+}
+.section-padding {
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+.custom-btn:hover {
+	background-color: #0099FF;
+	color: #fff;
+	border-color: transparent;
+}
+.dao .navbar {
+	border: none;
+	margin-bottom: 0;
+	min-height: 70px;
+	padding: 10px 0 6px;
+}
+.dao .navbar-default {
+	background-color: #0099FF;
+	box-shadow: 0 0px 10px rgba(0,0,0,.2);
+	border: none;
+	border-radius: 0;
+	clear: both;
+}
+.dao {
+	min-height: 70px;
+}
+.navbar-default .navbar-toggle {
+	border-color: #FFF;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #FFF;
+}
+.dao .navbar .navbar-brand {
+	color: #fff;
+	font-size: 40px;
+	font-weight: 700;
+	height: 70px;
+	line-height: 35px;
+}
+.dao .navbar-default .navbar-nav>li>a {
+	color: #001F3E;
+	font-weight: 400;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	text-transform: uppercase;
+	font-size: 14px;}
+h1 {
+	margin-bottom: 30px;
+	font-size: 60px;
+	font-weight: 100;
+}
+.bg-testimonial{
+	background: url(images/bg.jpg);
+}
+.testimonial .testimonial-slide {
+	width: 70%;
+	margin: auto;
+	text-align: center;
+	margin-bottom: 70px;
+}
+.carousel-indicators {
+	bottom: -50px;
+}
+.testimonial .testimonial-slide .image {
+	width: 100px;
+	height: 100px;
+	margin: auto;
+	border: 2px solid #ccc;
+	border-radius: 100%;
+	overflow: hidden;
+	margin-bottom: 50px;
+}
+.team {
+	text-align: center;
+}
+.team .member {
+	width: 263px;
+	height: 263px;
+	position: relative;
+	overflow: hidden;
+	display: table;
+	margin: auto;
+}
+.team .member img {
+	position: absolute;
+	width: 263px;
+	height: 263px;
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+}
+.team .info:hover .details {
+	opacity: 1;
+}
+.team .member .details {
+	width: 263px;
+	height: 50px;
+	position: absolute;
+	background: rgba(0, 153, 255, 0.9);
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+	opacity: 0;
+	bottom: 0;
+}
+.team .info:hover .icon {
+	transform: translateY(-100px);
+	-ms-transform: translateY(-100px);
+	-webkit-transform: translateY(-100px);
+}
+.team .member .details .icon {
+	position: relative;
+	bottom: -105px;
+	left: 0px;
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+}
+.team .member .details .icon ul {
+	display: table;
+	margin: auto;
+}
+ul {
+	padding: 0;
+}
+.team .member .details .icon ul li {
+	float: left;
+	margin-right: 10px;
+}
+.team .member .details .icon a {
+	color: #fff;
+}
+.social a {
+	display: block;
+	width: 40px;
+	font-size: 28px;
+	border-radius: 100%;
+	text-align: center;
+	color: #949494;
+	margin: 10px 0;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+ul li {list-style: none;}
+.h4, h4 {
+	font-size: 18px;
+}
+.header p {
+	margin-bottom: 30px;
+}
+p {
+	font-weight: 300;
+	letter-spacing: 0.5px;
+}
+.underline {
+	position: relative;
+	font-size: 20px;
+	max-width: 350px;
+	margin: auto;
+	margin-bottom: 80px;
+	color: #0099FF;
+}
+.underline:before {
+	position: absolute;
+	content: "";
+	width: 150px;
+	height: 1px;
+	background-color: #777;
+	top: 50%;
+	left: 0;
+}
+.underline:after {
+	position: absolute;
+	content: "";
+	width: 200px;
+	height: 1px;
+	background-color: #777;
+	top: 50%;
+	right: 0;
+}
+.header {
+	text-align: center;
+	width: 80%;
+	margin: 0 auto;
+}
+.team .app-dev .title {
+
+	background-color: #E7E7E7;
+	padding: 10px 0 12px;
+	display: inline-block;
+	width: 263px;
+
+}
+.team .app-dev h4 {
+	font-size: 28px;
+	font-weight: 300;
+}
+.footer {
+	text-align: center;
+}
+.footer h1 {
+	margin-bottom: 60px;
+}
+.footer .contact .contact-submit {
+	padding: 10px 30px;
+	font-size: 20px;
+	font-weight: 400;
+	margin-bottom: 50px;
+	background-color: #353535;
+	border: 2px solid #353535;
+}
+.footer .contact input {
+	width: 100%;
+	height: 50px;
+	border-radius: 0;
+	background-color: transparent;
+	margin-bottom: 30px;
+}
+.form-control {
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+.footer .contact textarea {
+	width: 100%;
+	border-radius: 0;
+	background-color: transparent;
+	margin-bottom: 10px;
+	outline: 0;
+	padding: 10px;
+	border: 1px solid #ccc;
+	min-height: 210px;
+}
